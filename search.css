@@ -1,0 +1,106 @@
+footer{
+    position: static;
+}
+.bigsearchbox{
+    width: 100%;
+	height: 100%;	
+}
+.centersearchbox{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 80%;
+    height: 100%;
+    margin-top: 50px;
+}
+.centersearchbox>a{
+    margin: 0 20px 16px 0;
+    height: 104px;
+    width: 225px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600%;
+}
+.smallsearchbox{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    height: 104px;
+    width: 225px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 10px silver;
+    background-position: right;
+    background-size: 40% 80%;
+    background-repeat: no-repeat;
+
+}
+.smallsearchboxcontent{
+	width: 130px;
+}
+.smallsearchboxcontent>p{
+	padding-left: 15px;
+    font-size: 14px;
+}
+.smallsearchbox>img,.smallsearchbox>.pic{
+    width: 40%;
+    height: 80%;
+    margin-right: 5px;
+    border-radius: 50px;
+    
+}
+span{
+    opacity: 50%;
+    font-size: 12px;
+}
+.adventurepic{
+    background-image: url("../League-of-Introvers/pj photo1/treasure-map.png");
+    
+}
+.adventurepic:hover{
+    transition: transform 0.3s ease-in-out 0s;
+}
+.historypic{
+    background-image: url("../League-of-Introverts/pj photo1/knight.png");
+}
+.fictionpic{
+    background-image: url("../League-of-Introverts/pj photo1/science-fiction.png");
+}
+.religionpic{
+    background-image: url("../League-of-Introverts/pj photo1/bible.png");
+}
+.dramapic{
+    background-image: url("../League-of-Introverts/pj photo1/theater.png");
+}
+.romancepic{
+    background-image: url("../League-of-Introverts/pj photo1/romance.png");
+}
+.editorpickspic{
+    background-image: url("../League-of-Introverts/pj photo1/editor pick.jpg");
+}
+.poetrypic{
+    background-image: url("../League-of-Introverts/pj photo1/poetry.png");
+}   
+.lifestylepic{
+    background-image: url("../League-of-Introverts/pj photo1/lifestyle.png");
+}
+.educationpic{
+    background-image: url("../League-of-Introverts/pj photo1/scholarship.png");
+}
+.childrenpic{
+    background-image: url("../League-of-Introverts/pj photo1/literature.png");
+}
+.autobiographicalpic{
+    background-image: url("../League-of-Introverts/pj photo1/novel.png");
+}
+@media only screen and (max-width:768px) {
+    footer{
+        position: static;
+    }
+}

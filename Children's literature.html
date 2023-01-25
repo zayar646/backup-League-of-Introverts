@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--link for favicon-->
+	<link rel="icon" type="image/x-icon" href="../League-of-Introverts/pj photo1/logo.png">
+	<!--link for search icon-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<!--link for navigation bar-->
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<!--link for footer-->
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<!--link for children's literature page style-->
+	<link rel="stylesheet" type="text/css" href="advanture.css">
+	<title>Children's literature</title>
+</head>
+<body>
+	<!--navigation bar container-->
+	<nav>
+		<a href="index.html" class="logo"><img src="../League-of-Introverts/pj photo1/biglogo.png" alt="logo" class="logopic"></a>
+		<a href="home.html" class="home">Home</a>
+		<!--drop down button-->
+		<button id="browse" onclick="browse()">Browse<span class="arrow"><!--arrow icon beside the browse--></span></button>
+		<!--drop down list -->
+			<div id="browselist" class="list">
+				<!--left side of the drop down list-->
+				<div class="left">
+				<!--genres lists-->
+				<p>Genres</p>
+				<ul class="listul">
+					<a href="Adventure.html"><li>Adventure</li></a>
+                    <a href="History.html"><li>History</li></a>
+                    <a href="Fiction.html"><li>Fiction</li></a>
+                    <a href="Religion.html"><li>Religion</li></a>
+                    <a href="Drama.html"><li>Drama</li></a>
+                    <a href="Romance.html"><li>Romance</li></a>
+                    <a href="Editor Picks.html"><li>Editor Picks</li></a>
+                    <a href="Poetry.html"><li>Poetry</li></a>
+                    <a href="Life Style.html"><li>Life Style</li></a>
+                    <a href="Education.html"><li>Education</li></a>
+                    <a href="Children's literature.html"><li>Children's literature</li></a>
+                    <a href="Autobiographical novel.html"><li>Autobiographical novel</li></a>
+				</ul>
+				</div>
+				<!--right side of the drop down list-->
+				<div class="right">
+					<!--writers lists-->
+					<p>Writer</p>
+					<ul class="listul writerlist">
+						<a href="Tekkatho_Phone_Naing.html"><li>Tekkatho Phone Naing</li></a>
+						<a href="Chit Oo Nyo.html"><li>Chit Oo Nyo</li></a>
+						<a href="Khin Khin Htoo.html"><li>Khin Khin Htoo</li></a>
+						<a href="Moe Moe.html"><li>Moe Moe(Inya)</li></a>
+						<a href="Tetsuko Kuroyanagi.html"><li>Tetsuko Kuroyanagi</li></a>
+						<a href="ဆန်းလွင်.html"><li>San Lwin</li></a>
+						<a href="ရွှေဥဒေါင်း.html"><li>Shwe U Daung</li></a>
+						<a href="ကြည်အေး.html"><li>Kyi Aye</li></a>
+					</ul>
+				</div>
+			</div>
+			<a href="about.html" class="about">About</a>
+			<!--search icon-->
+			<a href="search.html"><ion-icon  class="search" name="search-outline"></ion-icon></a>
+			<a class="login" href="login.html">Log in</a>
+	</nav>
+	<!--title, the header of the page-->
+	<header><h1>Children's literature</h1>
+		</header>
+		<!--to put tagbox and h3 together -->
+		<div class="tagbigbox">
+			<h3>Search by tag:</h3>
+			<!--I use this container to flex the display and to put tags under "search by tag:"-->
+			<div class="tagbox">
+				<span><a href="Children's literature.html">Children's literature</a></span>
+				<a href="Adventure.html">Adventure</a>
+				<a href="History.html">History</a>
+				<a href="Fiction.html">Fiction</a>
+				<a href="Religion.html">Religion</a>
+				<a href="Drama.html">Drama</a>
+				<a href="Romance.html">Romance</a>
+				<a href="Editor Picks.html">Editor Picks</a>
+				<a href="Poetry.html">Poetry</a>
+				<a href="Life Style.html">Life Style</a>
+                <a href="Autobiographical novel.html">Autobiographical novel</a>
+			</div>
+		</div>
+		<!--Big container to put two book in a row-->
+		<div class="bigbookcontainer">
+			<!--container to put the book image and book information-->
+			<section class="bigbooksection">
+				<!--container for book image-->
+				<div class="bigbookpic">
+					<!--link to the seleted book page-->
+					<a href="တော့တိုး ချန်.html">
+						<img src="../League-of-Introverts/pj photo1/Totto-chan.png" alt="Totto-chan">
+					</a>
+					<!--citation for book-->
+						<span>©www.shwezinu.com</span>
+					
+				</div>
+				<!--book information-->
+				<content>
+					<h4>တော့တိုး ချန်</h4>
+					<h5>By Tetsuko Kuroyanagi</h5>
+				</content>
+			</section>
+		</div>
+		<!--footer container-->
+		<footer>
+			<div class="footersecondbox">
+				<p><a href="term and condition.html">Terms and Conditions</a></p>
+				<p><a href="privacy.html">Privacy</a></p>
+				<p><a href="about.html">About</a></p>
+				<p><a href="help.html">Help</a></p>
+				<p><a href="https://www.termsfeed.com/live/b47a85ac-08e5-44db-b16a-3b56c54d0ab4">Disclaimer</a></p>
+			</div>
+			<center><div>© 2022 - 2023 Edu Hub.com - All Rights Reserved</div></center>
+		</footer>
+		<!--link of the javascript to appear drop down list when click the browse button in navigation bar-->
+	<script type="text/javascript" src="nav.js"></script>
+		<!--I put this link at the bottom of the html because when a function is active,the code will start read from the top of the html. So if I put this script on the top the brower will read the javascript first and it will not find button in html. So we can get the console error from the brower-->
+</body>
+</html>

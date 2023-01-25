@@ -1,0 +1,165 @@
+footer{
+	position: static;
+}
+.bigcontainer{
+	display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bigleftbox{
+	display: flex;
+    width: 450px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bigrightbox{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.bigrightbox>p{
+        width: 630px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.book{
+	margin-top: 50px;
+    width: 300px;
+    height: 400px;
+}
+.book>img{
+	width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 9px silver;
+}
+.infobox{
+	margin-top: 35px;
+    box-shadow: 0px 0px 7px silver;
+    width: 345px;
+    border-radius: 13px;
+    padding-left: 20px;
+}
+.bookgenres{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bookgenres>span>h3{
+	font-weight: 100;
+	margin-left: 15px;
+}
+.bookgenres>span>a{
+	text-decoration: none;
+    color: #6f6f6f;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: 5px 5px;
+    margin-top: 0px;
+    transition: transform 0.5s ease-in-out 0s;
+}
+.bookgenres>span>a:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out 0s;
+}
+.bookgenres>span{
+	width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.book>span{
+	opacity: 50%;
+    font-size: 12px;
+}
+.name,.author{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.author{
+    height: 60px;
+}
+.name>span,.author>span{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 77%;
+}
+.name>span>p,.author>span>a{
+	font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+.name>span>p{
+    margin-bottom: 0px;
+}
+.author>span{
+	width: 70%;
+    height: 94px;
+}
+.author>span>a{
+	color: black;
+}
+
+.download{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: -8px;
+}
+.download>a{
+    color: black;
+    width: 59%;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.bigrightbox>img{
+    width: 500px;
+    height: 640px;
+    border: 1px solid;
+}
+#pg2,#pg3{
+    display: none;
+}
+.bigrightbox>div{
+    margin-top: 25px;
+}
+.bigrightbox>div>button{
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (max-width: 786px) {
+	.bigleftbox{
+		width: 100%;
+        align-content: center;
+	}
+    .bigrightbox{
+        width: 100%;
+        margin-left: 13px;
+    }
+    .bigrightbox>img{
+        width: 92%;
+    }
+}
+@media only screen and (max-width: 1130px) {
+    .bigleftbox,.bigrightbox{
+        width: 100%;
+        align-content: center;
+        margin-left: 0px;
+    }
+
+}

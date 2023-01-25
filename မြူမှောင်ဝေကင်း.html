@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="../League-of-Introverts/pj photo1/logo.png">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<!--link for navigation bar style-->
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<!--link for footer style-->
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<!--link for  page style-->
+	<link rel="stylesheet" type="text/css" href="selectbook.css">
+	<!--link for search song screen when click-->
+	<link rel="stylesheet" type="text/css" href="searchsong.css">
+	<title>မြူမှောင်ဝေကင်း</title>
+</head>
+<body>
+			<div id="searchsong">
+				<h1>Pick a song</h1>
+				<div id="songlist">
+					<button onclick="song1()">ခေါင်းလောင်းလေးတွေမြည်နေပြီ - အောင်ကိုလတ်</button>
+					<button onclick="song2()">တန်ဖိုးထားပါ့မယ် - ကောင်းကောင်း</button>
+					<button onclick="song4()">လွမ်း - ခင်မောင်တိုး</button>
+					<button onclick="song5()">ချစ်သူသိစေ - ခင်မောင်တိုး</button>
+					<button onclick="song6()">ငါ့ရဲ့လျှို့ဝှက်ချက် - ဖိုးကာ</button>
+					<button onclick="song7()">ဆု -ရင်ဂို</button>
+					<button onclick="song8()">မျက်သွယ် - ခင်မောင်တိုး</button>
+					<button onclick="song9()">ဝတ်မှုန် - ခင်မောင်တိုး</button>
+					<button onclick="song0()">အချစ်တေးကဗျာ - အောင်ထက်</button>
+					<button onclick="song13()">မမြင့် - ပုံရိပ်</button>
+					<button onclick="song15()">အချစ်အယူခံ (ခင်မောင်တိုး)</button>
+					<button onclick="song16()">မောင့်ဆေးကျောင်းသူ_-_ ခင်မောင်ထူး</button>
+					<button onclick="song17()">ဒီလိုဆိုမချစ်ဘူးကွယ် - ၀င်းဦး</button>
+					<button onclick="song18()">ချစ်ရဲ့လားလို့ ခဏခဏမေးတဲ့ မောင့်ကိုပင်</button>
+					<button onclick="song19()">ရုန်းတော်လွှတ်တော်-အေဝမ်းတင်မောင် & မေရှင်</button>
+					<button onclick="song21()">ချစ်သူ့ လက်ဆောင် - ချစ်သူ့လက်ဆောင်</button>
+					<button onclick="song26()">ချစ်သူလမ်းကြား - စိုင်းအောင်ထီးခမ်း</button>
+					<button onclick="song27()">ရေဒီယိုကမာရွတ် - စိုင်းထီးဆိုင်</button>
+					<button onclick="song28()">မင်းသိဖို့ကောင်းတယ်  ဇော်ဝင်းရှိန် ၁၉၈၇</button>
+					<button onclick="song29()">ပြန်တွေးကြည့် - မိုးမိုး</button>
+					<button onclick="song30()">အချစ်မျက်ဝန်း - Lလွန်းဝါ</button>
+					<button onclick="song31()">ဒူးထောက်ပြီ - ဝိုင်ဝိုင်း</button>
+					<button onclick="song32()">တစ်စစီကျိုးပဲ့နေတယ် -အေးချမ်းမေ</button>
+					<button onclick="song34()">ကြည်ဖြူပါတော့ - စိုးသူ (ကြည်ဖြူပါ မေရယ်)</button>
+					<button onclick="song35()">ရွှေမန်းသူ - ခင်မောင်ထူး</button>
+					<button onclick="song36()">ငွေသော်တာရောင်ခြည် - (ဆရာမ) ဘိုဘိုဟန်</button>
+					<button onclick="song3()">Yiruma, (이루마) - River Flows in You</button>
+					<button onclick="song12()">to the bone - pamungkas (guitar cover)</button>
+					<button onclick="song23()">at my worst - pink sweat$ (guitar fingerstyle cover)</button>
+					<button onclick="song20()">cant help falling in love x perfect (elvis, ed sheeran) - guitar fingerstyle cover</button>
+					<button onclick="song24()">Until I Found You - Stephen Sanchez - Cover (Violin)</button>
+					<button onclick="song14()">ONLY - LEEHI (guitar cover)</button>
+					<button onclick="song25()">life goes on - bts (guitar fingerstyle cover)</button>
+					<button onclick="song37()">gone - rosé (guitar fingerstyle cover)</button>
+				</div>
+				<div class="soundbottombox">
+						<button onclick="No()" id="no">back</button>
+					</div>
+			</div>
+	<div id="hi">
+		<audio id="song11">
+			<source src="../League-of-Introverts/pj song1/Khaung Long Lay Tway Myi Nay Pe.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song22">
+			<source src="../League-of-Introverts/pj song1/Tan Phoe Htar Pa Mal (kaung Kaung).mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song33">
+			<source src="../League-of-Introverts/pj song1/Yiruma, (이루마) - River Flows in You.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song44">
+			<source src="../League-of-Introverts/pj song1/ခင်မောင်တိုး - လွမ်း.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song55">
+			<source src="../League-of-Introverts/pj song1/ချစ်သူသိစေ - ခင်မောင်တိုး __ Chit Thu Thi Say - Khin Maung Toe.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song66">
+			<source src="../League-of-Introverts/pj song1/ငါ့ရဲ့လွ်ိဳ ့ဝွက္ခ်က္ (Nga Ye Hlyoet What Chat) _ ဖိုးကာ (Phoe Kar).mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song77">
+			<source src="../League-of-Introverts/pj song1/ဆု  ရင်ဂို.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song88">
+			<source src="../League-of-Introverts/pj song1/မျက်သွယ် - ခင်မောင်တိုး __ Myat Thwel - Khin Maung Toe.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song99">
+			<source src="../League-of-Introverts/pj song1/ဝတ်မှုန် - ခင်မောင်တိုး __ Wutt Hmone - Khin Maung Toe.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="song00">
+			<source src="../League-of-Introverts/pj song1/အောင်ထက် - အချစ်တေးကဗျာ.mp3" type="audio/mpeg">
+		</audio>
+		<nav>
+			<a href="index.html" class="logo"><img src="../League-of-Introverts/pj photo1/biglogo.png" alt="logo" class="logopic"></a>
+			<a href="home.html" class="home">Home</a>
+			<!--drop down button-->
+			<button id="browse" onclick="browse()">Browse<span class="arrow"><!--arrow icon beside the browse--></span></button>
+			<!--drop down list -->
+				<div id="browselist" class="list">
+					<!--left side of the drop down list-->
+					<div class="left">
+					<!--genres lists-->
+					<p>Genres</p>
+					<ul class="listul">
+						<a href="Adventure.html"><li>Adventure</li></a>
+						<a href="History.html"><li>History</li></a>
+						<a href="Fiction.html"><li>Fiction</li></a>
+						<a href="Religion.html"><li>Religion</li></a>
+						<a href="Drama.html"><li>Drama</li></a>
+						<a href="Romance.html"><li>Romance</li></a>
+						<a href="Editor Picks.html"><li>Editor Picks</li></a>
+						<a href="Poetry.html"><li>Poetry</li></a>
+						<a href="Life Style.html"><li>Life Style</li></a>
+						<a href="Education.html"><li>Education</li></a>
+						<a href="Children's literature.html"><li>Children's literature</li></a>
+						<a href="Autobiographical novel.html"><li>Autobiographical novel</li></a>
+
+					</ul>
+					</div>
+					<!--right side of the drop down list-->
+					<div class="right">
+						<!--writers lists-->
+						<p>Writer</p>
+						<ul class="listul writerlist">
+							<a href="Tekkatho_Phone_Naing.html"><li>Tekkatho Phone Naing</li></a>
+							<a href="Chit Oo Nyo.html"><li>Chit Oo Nyo</li></a>
+							<a href="Khin Khin Htoo.html"><li>Khin Khin Htoo</li></a>
+							<a href="Moe Moe.html"><li>Moe Moe(Inya)</li></a>
+							<a href="Tetsuko Kuroyanagi.html"><li>Tetsuko Kuroyanagi</li></a>
+							<a href="ဆန်းလွင်.html"><li>San Lwin</li></a>
+							<a href="ရွှေဥဒေါင်း.html"><li>Shwe U Daung</li></a>
+							<a href="ကြည်အေး.html"><li>Kyi Aye</li></a>
+						</ul>
+					</div>
+				</div>
+				<a href="about.html" class="about">About</a>
+				<!--search icon-->
+				<a href="search.html"><ion-icon  class="search" name="search-outline"></ion-icon></a>
+				<a class="login" href="login.html">Log in</a>
+		</nav>
+	<div class="soundbox">
+		<button onclick="searchsongs()" class="searchsongbutton">Search Songs</button>
+		<button onclick="loop()" id="lop"></button>
+		<button onclick="voldown()" id="vold"></button>
+		<button onclick="stop11()" id="stop1"></button>
+		<button onclick="start1()" id="start"></button>
+		<button onclick="volup()" id="volu"></button>
+	</div>
+			<div class="bigcontainer">
+				<div class="bigleftbox">
+					<div class="book">
+						<img src="../League-of-Introverts/pj photo1/မြူမှောင်ဝေကင်း.png" alt="book">
+						<span>©www.burmeseclassic.com</span>
+					</div>
+					<div class="infobox">
+						<div class="name">
+							<h2>Name:</h2>
+							<span>
+								<p>မြူမှောင်ဝေကင်း</p>
+							</span>
+						</div>
+						<div class="author">
+							<h2 class="author">Author:</h2>
+							<span>
+								<a href="Moe Moe.html">မိုးမိုး (အင်းလျား)</a>
+							</span> 
+						</div>
+						<div class="bookgenres">
+							<h2>Genres:</h2>
+							<span>
+								<a href="Fiction.html">Fiction</a>
+								<a href="Drama.html">Drama</a>
+								<a href="Life Style.html">Life Style</a>
+							</span>
+						</div>
+						<div class="download">
+							<h2>Download:</h2>
+							<a href="../League-of-Introverts/pj pdf1/10522_မိုးမိုး_အင်းလျား_မြူမှောင်ဝေကင်း.pdf" target="black">မြူမှောင်ဝေကင်း.pdf</a>
+						</div>
+					</div>
+				</div>
+				<div class="bigrightbox">
+					<img id="pg1" src="../League-of-Introverts/pj page1/မြူမှောင်ဝေကင်း1.png" alt="page1">
+					<img id="pg2" src="../League-of-Introverts/pj page1/မြူမှောင်ဝေကင်း2.png" alt="page2">
+					<img id="pg3" src="../League-of-Introverts/pj page1/မြူမှောင်ဝေကင်း3.png" alt="page3">
+					<div>
+						<button onclick="pg11()">1</button>
+						<button onclick="pg22()">2</button>
+						<button onclick="pg33()">3</button>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="footersecondbox">
+					<p><a href="term and condition.html">Terms and Conditions</a></p>
+					<p><a href="privacy.html">Privacy</a></p>
+					<p><a href="about.html">About</a></p>
+					<p><a href="help.html">Help</a></p>
+					<p><a href="https://www.termsfeed.com/live/b47a85ac-08e5-44db-b16a-3b56c54d0ab4">Disclaimer</a></p>
+				</div>
+				<center><div>© 2022 - 2023 Edu Hub.com - All Rights Reserved</div></center>
+			</footer>
+	</div>
+	<script type="text/javascript" src="nav.js"></script>
+	<script type="text/javascript" src="sound.js"></script>
+	<script type="text/javascript" src="selectbook.js"></script>
+</body>
+</html>

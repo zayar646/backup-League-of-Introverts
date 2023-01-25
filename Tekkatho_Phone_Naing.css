@@ -1,0 +1,136 @@
+footer{
+	position: static;
+}
+.header{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+}
+.pic{
+	width: 300px;
+}
+.pic>img{
+	width: 300px;
+	height: 400px;
+	box-shadow: 0px 0px 15px silver;
+}
+.pic>span{
+	opacity: 50%;
+
+}
+header>h3{
+	margin-top: 5px;
+	margin-left: 20%;
+	font-size: 20px;
+	margin-top: 40px;
+}
+header>p{
+	margin-left: 20%;
+	font-weight: 200;
+	color: gray;
+	margin-top: 0px;
+}
+.container{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 67%;
+    height: 100%;
+    margin-left: 19%;
+}
+.books{
+	height: 34%;
+    width: 160px;
+    margin: 5px 15px;
+	transition: transform 0.5s ease-in-out 0.3s;
+}
+
+.books>a>img{
+	width: 160px;
+    height: 210px;
+	border-radius: 5px;
+    box-shadow: 0px 5px 10px silver;
+}
+.books:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s ease-in-out 0s;
+}
+.bigbookcontainer{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 100px;
+    box-shadow: 0 0 15px #eee;
+    padding-left: 15px;
+	padding-bottom: 30px;
+}
+.bigbooksection{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 250px;
+	margin: 20px 0px;
+
+}
+.bigbookpic{
+	width: 45%;
+	transition: transform 0.5s ease-in-out 0.3s;
+}
+.bigbookpic:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s ease-in-out 0s;
+}
+.bigbookpic>a>img{
+	width: 100%;
+	height: 100%;
+}
+.bigbookpic>span{
+	opacity: 50%;
+	font-size: 12px;
+}
+.bigbooksection>content{
+	width: 60%;
+    margin: 0px 5%;
+}
+.bigbooksection>content>h4,.bigbooksection>content>h5{
+	font-weight: 100;
+}
+.bigbooksection>content>h4{
+	margin-bottom: 0px;
+	color: #6f6f6f;
+}
+.bigbooksection>content>h5{
+	margin-top: 0px;
+	color: #6f6f6f;
+}
+.bigbookcontainertitle{
+	margin-left: 20%;
+}
+footer{
+    margin-top: 20px;
+}
+hr {
+    width: 70vw;
+}
+@media only screen and (max-width:1200px) and (min-width: 786px) {
+	.bigbookcontainer{
+	    width: 75%;
+    	margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width:786px) {
+	.bigbooksection{
+		width: 100%;
+	}
+	.bigbookcontainer{
+		width: 78%;
+		margin-left: 13%;
+	}
+	.bigbooksection>content {
+    	width: 45%;
+	}
+
+}

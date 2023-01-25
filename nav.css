@@ -1,0 +1,166 @@
+*{
+	font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 50px;
+}
+.logo{
+	margin-left: 11%;
+	width: 13%;
+	height: 48px;
+}
+.logopic{
+	width: 100%;
+	height: 48px;
+}
+.list{
+	display: none;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    list-style: none;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0px 0px 20px silver;
+    height: 280px;
+    width: 668px;
+    left: 28.8%;
+}
+.listul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 76%;
+    border-right: 1px solid;
+}
+.writerlist{
+    border-right: 0px;
+}
+.listul>a{
+	margin: 6px 0;
+    width: 52%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.listul>a:hover{
+	font-weight: 600;
+}
+.left>p,.right>p{
+   margin: 0px 40px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.right {
+    width: 50%;
+    height: 100%;
+}
+.arrow{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 0px;
+}
+nav>button{
+	margin: 0px 15px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+.home,.about{
+    text-decoration: none;
+    margin: 16.5px 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.search{
+	height: 23px;
+    width: 23px;
+    color: black;
+    margin-top: 15px;
+    position: absolute;
+}
+.login{
+	position: absolute;
+    right: 15%;
+    top: 22px;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+}
+.listul>div{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    height: 100%;
+}
+.secondcontainer>section{
+    transition: transform 0.5s ease-in-out 0.3s;
+}
+.secondcontainer>section:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out 0s;
+}
+@media only screen and (max-width: 1120px) {
+    .logo{
+        margin-left: 0px;
+        width: 30%;
+    }
+    .login{
+        right: 5%;
+    }  
+    .list{
+        width: 94%;
+        height: 687px;
+        left: 0%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .listul{
+        height: 90%;
+        width: 90%;
+        border-right: 0px;
+        border-bottom: 1px solid;
+    }
+    .writerlist{
+        width: 90%;
+        border-bottom: 0px;
+    }
+    .left{
+        width: 100%;
+        height: 55%;
+    }
+    .right>.listul>a{
+        width: 86%;
+    }
+    .right{
+        height: 33%;
+            width: 70%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .about{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .search{
+        display: none;
+    }
+}

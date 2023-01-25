@@ -1,0 +1,221 @@
+@keyframes slideleft{
+	0%{ transform:translateX(100px);opacity:0% }
+	100%{ transform:translateX(0px);opacity:100% }
+}
+footer{
+	position: static;
+}
+body{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.container{
+	height: 100%;
+}
+.first{
+	width: 100%;
+	height: 92vh;
+    background-color: #eee;
+}
+.firstcontentbox{
+	float: left;
+	width: 50%;
+}
+.firstcontent{
+	margin-left: 15%;
+    margin-top: 135px;
+}
+.firstcontent>h1{
+	margin: 55px 0px;
+	font-size: 60px;
+}
+.firstpicbox{
+	float: right;
+	width: 50%;
+	overflow: hidden;
+}
+.firstpic{
+	width: 370px;
+    margin-top: 5%;
+    animation: slideleft 1.5s;
+    margin-left: 20%;
+    box-shadow: 2px 2px 10px silver;
+}
+.firstbutton>a>button{
+	width: 170px;
+    border-radius: 6px;
+    background-color: #043E4D;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 5px 25px;
+    margin: 0px 60px;
+    transition: all ease 0.3s;
+    border: 2px solid;
+}
+
+.firstbutton>a>button:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+}
+
+.firstbutton{
+	margin-left: 7%;
+}
+.second{
+	height: 100%;
+}
+.secondbigbox{
+	margin-top: 5vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondbottombox{
+	    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 422px;
+    width: 45vw;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+.leftsecondbottombox>a>img{
+    height: 322px;
+}
+.rightsecondbottombox{
+    width: 50%;
+}
+.leftsecondbottombox{
+    margin-right: 10%;
+    margin-top: 35px;
+    float: left;
+    height: 317px;
+    width: 40%;
+    
+}
+.leftsecondbottombox>span{
+	opacity: 50%;
+	margin-bottom: 30px;
+}
+.leftsecondbottombox>span,.thirdrightbox>span{
+	opacity: 50%;
+	font-size: 12px;
+}
+
+.thirdbottombox{
+	flex-direction: row-reverse;
+}
+.thirdimage{
+	width: auto;
+    margin-left: 50px;
+}
+@media only screen and (max-width:600px) {
+	.first{
+		height: 280px;
+	}
+	.firstcontent>h1{
+		font-size: 30px;
+		margin: 20px 0px;
+	}
+	.firstcontent>h3{
+		font-size: 15px;
+	}
+	.firstcontent>h5{
+		font-size: 10px;
+	}
+	.firstcontent{
+		margin-top: 30px;
+	}
+	.firstpicbox{
+		margin-top: 5%;
+	}
+	.firstpic{
+		width: 60%;
+		height: 50%;
+	}
+	.firstbutton>a>button{
+		margin: 0px 15px;
+	}
+	.rightsecondbottombox{
+	    float: right;
+	    width: 100%;
+	    margin-top: 35px;
+	}
+	.second {
+    	    height: 1080px;
+	}
+	.secondbottombox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 729px;
+    width: 69vw;
+    margin-top: 50px;
+    justify-content: flex-start;
+	}
+	.secondbigbox{
+		width: 100%;
+	}
+	.third{
+		height: 700px;
+	}
+}
+@media only screen and (max-width:768px) and (min-width:600px) {
+	.first{
+		    height: 405px;
+	}
+	.firstcontent>h1{
+		font-size: 40px;
+		margin: 20px 0px;
+	}
+	.firstcontent>h3{
+		font-size: 15px;
+	}
+	.firstcontent>h5{
+		font-size: 10px;
+	}
+	.firstcontent{
+		margin-top: 120px;
+	}
+	.firstpicbox{
+		margin-top: 5%;
+	}
+	.firstpic{
+		width: 218px;
+		height: 50%;
+	}
+	.firstbutton>a>button{
+		margin: 0px 15px;
+	}
+	.rightsecondbottombox{
+	    float: right;
+	    width: 100%;
+	    margin-top: 30px;
+	}
+	.second {
+    	height: 1280px;
+	}
+	.secondbottombox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 69vw;
+    margin-top: 50px;
+    justify-content: flex-start;
+	}
+	.secondbigbox{
+		width: 100%;
+	}
+	.third{
+		height: 620px;
+	}
+}
+@media only screen and (max-width:1160px) and (min-width:768px) {
+	.secondbottombox{
+		width: 80vw;
+	}
+}
+

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--link for favicon-->
+	<link rel="icon" type="image/x-icon" href="../League-of-Introverts/pj photo1/logo.png">
+	<!--link for search icon-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<!--link for navigation bar-->
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<!--link for footer-->
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<!--link for drama page style-->
+	<link rel="stylesheet" type="text/css" href="advanture.css">
+	<title>Drama</title>
+</head>
+<body>
+	<!--navigation bar container-->
+	<nav>
+		<a href="index.html" class="logo"><img src="../League-of-Introverts/pj photo1/biglogo.png" alt="logo" class="logopic"></a>
+		<a href="home.html" class="home">Home</a>
+		<!--drop down button-->
+		<button id="browse" onclick="browse()">Browse<span class="arrow"><!--arrow icon beside the browse--></span></button>
+		<!--drop down list -->
+			<div id="browselist" class="list">
+				<!--left side of the drop down list-->
+				<div class="left">
+				<!--genres lists-->
+				<p>Genres</p>
+				<ul class="listul">
+					<a href="Adventure.html"><li>Adventure</li></a>
+                    <a href="History.html"><li>History</li></a>
+                    <a href="Fiction.html"><li>Fiction</li></a>
+                    <a href="Religion.html"><li>Religion</li></a>
+                    <a href="Drama.html"><li>Drama</li></a>
+                    <a href="Romance.html"><li>Romance</li></a>
+                    <a href="Editor Picks.html"><li>Editor Picks</li></a>
+                    <a href="Poetry.html"><li>Poetry</li></a>
+                    <a href="Life Style.html"><li>Life Style</li></a>
+                    <a href="Education.html"><li>Education</li></a>
+                    <a href="Children's literature.html"><li>Children's literature</li></a>
+                    <a href="Autobiographical novel.html"><li>Autobiographical novel</li></a>
+				</ul>
+				</div>
+				<!--right side of the drop down list-->
+				<div class="right">
+					<!--writers lists-->
+					<p>Writer</p>
+					<ul class="listul writerlist">
+						<a href="Tekkatho_Phone_Naing.html"><li>Tekkatho Phone Naing</li></a>
+						<a href="Chit Oo Nyo.html"><li>Chit Oo Nyo</li></a>
+						<a href="Khin Khin Htoo.html"><li>Khin Khin Htoo</li></a>
+						<a href="Moe Moe.html"><li>Moe Moe(Inya)</li></a>
+						<a href="Tetsuko Kuroyanagi.html"><li>Tetsuko Kuroyanagi</li></a>
+						<a href="ဆန်းလွင်.html"><li>San Lwin</li></a>
+						<a href="ရွှေဥဒေါင်း.html"><li>Shwe U Daung</li></a>
+						<a href="ကြည်အေး.html"><li>Kyi Aye</li></a>
+					</ul>
+				</div>
+			</div>
+			<a href="about.html" class="about">About</a>
+			<!--search icon-->
+			<a href="search.html"><ion-icon  class="search" name="search-outline"></ion-icon></a>
+			<a class="login" href="login.html">Log in</a>
+	</nav>
+		<!--title, the header of the page-->
+		<header><h1>Drama Stories</h1>
+		<p>Best Dramatic Stories</p>
+		</header>
+		<!--to put tagbox and h3 together -->
+		<div class="container">
+			<section class="books">
+				<a href="စိန်တစ်ပွင့်.html">
+					<img src="../League-of-Introverts/pj photo1/မိုးမိုး_အင်းလျား_စိန််တစ်ပွင့်.jpg" alt="စိန်တစ်ပွင့်">
+				</a>
+			</section>
+			<section class="books">
+				<a href="ဆရာတို့ကိုသာ လွမ်း.html">
+					<img src="../League-of-Introverts/pj photo1/ဆရာတို့ကိုသာ လွမ်း.png" alt="ဆရာတို့ကိုသာ လွမ်း">
+				</a>
+			</section>
+			<section class="books">
+				<a href="သူငယ်ချင်းလို့ပဲ ဆက်၍ခေါ်မည်ခိုင်.html">
+					<img src="../League-of-Introverts/pj photo1/bestbookofthemonth.png" alt="သူငယ်ချင်းလို့ပဲ ဆက်၍ခေါ်မည်ခိုင်">
+				</a>
+			</section>
+			<section class="books">
+				<a href="ပျောက်သောလမ်းမှာ စမ်းတဝါး.html">
+					<img src="../League-of-Introverts/pj photo1/ပျောက်သောလမ်းမှာ စမ်းတဝါး.jpg" alt="ပျောက်သောလမ်းမှာ စမ်းတဝါး">
+				</a>
+			</section>
+			<section class="books">
+				<a href="ပိတောက်နဲ့ကြိုပါမည် မာရီယာ.html">
+						<img src="../League-of-Introverts/pj photo1/ပိတောက်နဲ့ကြိုပါမည် မာရီယာ.png" alt="ပိတောက်နဲ့ကြိုပါမည် မာရီယာ">
+					</a>
+			</section>
+		</div>
+		<div class="tagbigbox">
+			<h3>Search by tag:</h3>
+			<!--I use this container to flex the display and to put tags under "search by tag:"-->
+			<div class="tagbox">
+                <span><a href="Drama.html">Drama</a></span>
+				<a href="Adventure.html">Adventure</a>
+				<a href="History.html">History</a>
+				<a href="Fiction.html">Fiction</a>
+				<a href="Religion.html">Religion</a>
+				<a href="Romance.html">Romance</a>
+				<a href="Editor Picks.html">Editor Picks</a>
+				<a href="Poetry.html">Poetry</a>
+				<a href="Life Style.html">Life Style</a>
+				<a href="Autobiographical novel.html">Autobiographical novel</a>
+				<a href="Children's literature.html">Children's literature</a>
+			</div>
+		</div>
+		<!--Big container to put two book in a row-->
+		<div class="bigbookcontainer"> 
+			<!--container to put the book image and book information-->
+			<section class="bigbooksection">
+				<!--container for book image-->
+				<div class="bigbookpic">
+					<!--link to the seleted book page-->
+					<a href="ချစ်သူမင်းနန္ဒာ.html">
+						<!--book image-->
+						<img src="../League-of-Introverts/pj photo1/ချစ်သူမင်းနန္ဒာ.png" alt="ချစ်သူမင်းနန္ဒာ">
+					</a>
+					<!--citation for book-->
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<!--book information-->
+				<content>
+					<h4>ချစ်သူမင်းနန္ဒာ</h4>
+					<h5>By ချစ်ဦးညို</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ဂျိုး.html">
+						<img src="../League-of-Introverts/pj photo1/ဂျိုး.jpg" alt="ဂျိုး">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ဂျိုး</h4>
+					<h5>By မိုးမိုး (အင်းလျား)</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ငြိမ်းချမ်းရေး မဟာတမန်.html">
+						<img src="../League-of-Introverts/pj photo1/ငြိမ်းချမ်းရေး_မဟာတမန်.png" alt="ငြိမ်းချမ်းရေး_မဟာတမန်">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ငြိမ်းချမ်းရေး မဟာတမန်</h4>
+					<h5>By ချစ်ဦးညို</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="စာမရီသို့ထူးထူးခြားခြား.html">
+						<img src="../League-of-Introverts/pj photo1/စာမရီသို့ထူးထူးခြားခြား.jpg" alt="စာမရီသို့ထူးထူးခြားခြား">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>စာမရီသို့ထူးထူးခြားခြား</h4>
+					<h5>By ချစ်ဦးညို</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="စိန်တစ်ပွင့်.html">
+						<img src="../League-of-Introverts/pj photo1/မိုးမိုး_အင်းလျား_စိန််တစ်ပွင့်.jpg" alt="စိန်တစ်ပွင့်">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>စိန်တစ်ပွင့်</h4>
+					<h5>By မိုးမိုး (အင်းလျား)</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ဆရာတို့ကိုသာ လွမ်း.html">
+						<img src="../League-of-Introverts/pj photo1/ဆရာတို့ကိုသာ လွမ်း.png" alt="ဆရာတို့ကိုသာ လွမ်း">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ဆရာတို့ကိုသာ လွမ်း</h4>
+					<h5>By ချစ်ဦးညို</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ညီမလေးက အချစ်ကို ကိုးကွယ်သတဲ့လား.html">
+						<img src="../League-of-Introverts/pj photo1/ညီမလေးက အချစ်ကို ကိုးကွယ်တယ်လား.jpg" alt="ညီမလေးက အချစ်ကို ကိုးကွယ်သတဲ့လား">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ညီမလေးက အချစ်ကို ကိုးကွယ်သတဲ့လား</h4>
+					<h5>By မိုးမိုး (အင်းလျား)</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ဒုဋ္ဌဂါမဏိ.html">
+						<img src="../League-of-Introverts/pj photo1/ဒုဋ္ဌဂါမဏိ.jpg" alt="ဒုဋ္ဌဂါမဏိ">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ဒုဋ္ဌဂါမဏိ</h4>
+					<h5>By ချစ်ဦးညို</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ပျောက်သောလမ်းမှာ စမ်းတဝါး.html">
+						<img src="../League-of-Introverts/pj photo1/ပျောက်သောလမ်းမှာ စမ်းတဝါး.jpg" alt="ပျောက်သောလမ်းမှာ စမ်းတဝါး">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ပျောက်သောလမ်းမှာ စမ်းတဝါး</h4>
+					<h5>By မိုးမိုး (အင်းလျား)</h5>
+				</content>
+			</section>
+			<section class="bigbooksection">
+				<div class="bigbookpic">
+					<a href="ပိတောက်နဲ့ကြိုပါမည် မာရီယာ.html">
+						<img src="../League-of-Introverts/pj photo1/ပိတောက်နဲ့ကြိုပါမည် မာရီယာ.png" alt="ပိတောက်နဲ့ကြိုပါမည် မာရီယာ">
+					</a>
+					<span>©www.burmeseclassic.com</span>
+				</div>
+				<content>
+					<h4>ပိတောက်နဲ့ကြိုပါမည် မာရီယာ</h4>
+					<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+				</content>
+			</section>
+		
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ပ).html">
+					<img src="../League-of-Introverts/pj photo1/ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ပ).png" alt="ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ပ)">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ပ)</h4>
+				<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ဒု).html">
+					<img src="../League-of-Introverts/pj photo1/ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ဒု).png" alt="ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ဒု)">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>ပိတောက်ပွင့်ဆဲလသာဆဲဝယ်(ဒု)</h4>
+				<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="ဘယ်သူလာကူပါ့မယ်.html">
+					<img src="../League-of-Introverts/pj photo1/ဘယ်သူလာကူပါ့မယ်.png" alt="ဘယ်သူလာကူပါ့မယ်">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>ဘယ်သူလာကူပါ့မယ်</h4>
+				<h5>By မိုးမိုး (အင်းလျား)</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မဏိစန္ဒာဥဒါန်း.html">
+					<img src="../League-of-Introverts/pj photo1/မဏိစန္ဒာဥဒါန်း.jpg" alt="မဏိစန္ဒာဥဒါန်း">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မဏိစန္ဒာဥဒါန်း</h4>
+				<h5>By ချစ်ဦးညို</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မြူမှောင်ဝေကင်း.html">
+					<img src="../League-of-Introverts/pj photo1/မြူမှောင်ဝေကင်း.png" alt="မြူမှောင်ဝေကင်း">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မြူမှောင်ဝေကင်း</h4>
+				<h5>By မိုးမိုး (အင်းလျား)</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မလေးမဏိစန္ဒာရဲ့နှောင်း.html">
+					<img src="../League-of-Introverts/pj photo1/မလေးမဏိစန္ဒာရဲ့နှောင်း.png" alt="မလေးမဏိစန္ဒာရဲ့နှောင်း">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မလေးမဏိစန္ဒာရဲ့နှောင်း</h4>
+				<h5>By ချစ်ဦးညို</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မအိမ်ကံ.html">
+					<img src="../League-of-Introverts/pj photo1/မအိမ်ကံ.jpg" alt="မအိမ်ကံ">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မအိမ်ကံ</h4>
+				<h5>By ခင်ခင်ထူး</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မောင်နှမမြနန္ဒာ.html">
+					<img src="../League-of-Introverts/pj photo1/မောင်နှမမြနန္ဒာ.png" alt="မောင်နှမမြနန္ဒာ">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မောင်နှမမြနန္ဒာ</h4>
+				<h5>By ကြည်အေး</h5>
+			</content>
+		</section>
+		<section class="bigbooksection">
+			<div class="bigbookpic">
+				<a href="မော့င်ဘဝ ညအလားကွယ်.html">
+					<img src="../League-of-Introverts/pj photo1/မော့င်ဘဝ ညအလားကွယ်.JPG" alt="မော့င်ဘဝ ညအလားကွယ်">
+				</a>
+				<span>©www.burmeseclassic.com</span>
+			</div>
+			<content>
+				<h4>မော့င်ဘဝ ညအလားကွယ်</h4>
+				<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+			</content>
+		</section>
+	
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="ရှင်စောပု.html">
+				<img src="../League-of-Introverts/pj photo1/ရှင်စောပု.png" alt="ရှင်စောပု">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>ရှင်စောပု</h4>
+			<h5>By ချစ်ီဥးညို</h5>
+		</content>
+	</section>
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="လင်္ကာဒီပချစ်သူ.html">
+				<img src="../League-of-Introverts/pj photo1/လင်္ကာဒီပချစ်သူ.jpg" alt="လင်္ကာဒီပချစ်သူ">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>လင်္ကာဒီပချစ်သူ</h4>
+			<h5>By ချစ်ီဥးညို</h5>
+		</content>
+	</section>
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="လွမ်းတေးမဆုံးစေနှင့်စောသခင်.html">
+				<img src="../League-of-Introverts/pj photo1/လွမ်းတေးမဆုံးစေနှင့်စောသခင်.jpg" alt="လွမ်းတေးမဆုံးစေနှင့်စောသခင်">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>လွမ်းတေးမဆုံးစေနှင့်စောသခင်</h4>
+			<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+		</content>
+	</section>
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="ဝတ်လဲတော်ရွှေပုဆိုးတန်းထိုးလို့ကြိုမယ်.html">
+				<img src="../League-of-Introverts/pj photo1/ဝတ်လဲတော်ရွှေပုဆိုးတန်းထိုးလို့ကြိုမယ်.png" alt="ဝတ်လဲတော်ရွှေပုဆိုးတန်းထိုးလို့ကြိုမယ်">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>ဝတ်လဲတော်ရွှေပုဆိုးတန်းထိုးလို့ကြိုမယ်</h4>
+			<h5>By ခင်ခင်ထူး</h5>
+		</content>
+	</section>
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="အချစ် ဆို သောအရာ.html">
+				<img src="../League-of-Introverts/pj photo1/အချစ် ဆို သောအရာ.jpg" alt="အချစ် ဆို သောအရာ">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>အချစ် ဆို သောအရာ</h4>
+			<h5>By မိုးမိုး (အင်းလျား)</h5>
+		</content>
+	</section>
+	<section class="bigbooksection">
+		<div class="bigbookpic">
+			<a href="သူငယ်ချင်းလို့ပဲ ဆက်၍ခေါ်မည်ခိုင်.html">
+				<img src="../League-of-Introverts/pj photo1/bestbookofthemonth.png" alt="သူငယ်ချင်းလို့ပဲ ဆက်၍ခေါ်မည်ခိုင်">
+			</a>
+			<span>©www.burmeseclassic.com</span>
+		</div>
+		<content>
+			<h4>သူငယ်ချင်းလို့ပဲ ဆက်၍ခေါ်မည်ခိုင်</h4>
+			<h5>By တက္ကသိုလ်ဘုန်းနိုင်</h5>
+		</content>
+	</section>
+
+	</div>
+	</div>
+			<!--footer container-->
+			<footer>
+				<div class="footersecondbox">
+					<p><a href="term and condition.html">Terms and Conditions</a></p>
+					<p><a href="privacy.html">Privacy</a></p>
+					<p><a href="about.html">About</a></p>
+					<p><a href="help.html">Help</a></p>
+					<p><a href="https://www.termsfeed.com/live/b47a85ac-08e5-44db-b16a-3b56c54d0ab4">Disclaimer</a></p>
+				</div>
+				<center><div>© 2022 - 2023 Edu Hub.com - All Rights Reserved</div></center>
+			</footer>
+	<!--link of the javascript to appear drop down list when click the browse button in navigation bar-->
+	<script type="text/javascript" src="nav.js"></script>
+	<!--I put this link at the bottom of the html because when a function is active,the code will start read from the top of the html. So if I put this script on the top the brower will read the javascript first and it will not find button in html. So we can get the console error from the brower-->
+</body>
+</html>

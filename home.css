@@ -1,0 +1,183 @@
+footer{
+    position: static;
+}
+h1{
+    margin-top: 50px;
+}
+.bigcontainer{
+	display: flex;
+	height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.centercontainer{
+	display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+.arrowright,.arrowleft{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 0px;
+}
+.arrowright{
+    left: 13vw;
+    background-image: url("../pj photo1/angle-circle-left.png");
+}
+.arrowleft{
+    right: 13vw;
+    background-image: url("../pj photo1/angle-circle-right.png");
+}
+.rightarrow,.leftarrow{
+    top: 295px;
+    opacity: 0%;
+    transition: opacity 0.3s ease-in-out 0s;
+}   
+.firstcontainer{
+	display: flex;
+    overflow: hidden;
+    height: auto;
+    width: 62vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    scroll-behavior: smooth;
+    margin-left: 30px;
+}
+.firstcontainer>section{
+	height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstbigpic{
+    width: 230px;
+    height: 246px;
+    border-radius: 40px;
+    margin: 10px 35px;
+    box-shadow: silver 1px 1px 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.firstbigpic1{
+    background-image: url("../pj photo1/tekkatho phone naing.png");
+}
+.firstbigpic2{
+    background-image: url("../pj photo1/moemoe.png");
+}
+.firstbigpic3{
+    background-image: url("../pj photo1/chitoonyo.png");
+}
+.bigsection>h2,.bigsection>p{
+	margin: 5px;
+}
+.second{
+    height: auto;
+}
+.secondcontainer{
+    display: flex;
+    padding-top: 7px;
+    height: 281px;
+    width: 63vw;
+    overflow: hidden;
+    margin-left: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.secondcontainer>section>a>img{
+    width: 175px;
+    height: 250px;
+    box-shadow: 0px 0px 7px silver;
+    border-radius: 5px;
+}
+.secondcontainer>section{
+    margin: 0px 10px;
+}
+.wantmorebox{
+    display: flex;
+    width: 175px;
+    height: 250px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 15px silver;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.wantmorebox>h3,.wantmorebox>p,.wantmorebox>a{
+    text-align: center;
+
+}
+.wantmorebox>h3{
+    margin: 0px;
+}
+.wantmorebox>a{
+    margin-top: 10px;
+    color: black;
+}
+section>span{
+    opacity: 50%;
+    font-size: 12px;
+} 
+@media only screen and (max-width: 1300px) and (min-width: 786px) {
+    .secondcontainer {
+        width: 60vw;
+    }
+    .firstbigpic {
+        margin-left: 0px;
+    }
+    .rightarrow,.leftarrow{
+        opacity: 100%;
+        transition: opacity 0.5s ease-in-out 0s;
+    }
+    .firstcontainer{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width: 786px) and (min-width: 600px){
+    .secondcontainer {
+        width: 58vw;
+    }
+    .rightarrow,.leftarrow{
+        opacity: 100%;
+        transition: opacity 0.5s ease-in-out 0s;
+    }
+    .firstcontainer{
+        width: 58vw;
+    }
+     h1{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .secondcontainer {
+        width: 53vw;
+    }
+    .firstcontainer{
+        width: 60vw;
+    }
+    h1{
+        font-size: 23px;
+    }
+    .bigcontainer{
+        height: auto;
+    }
+    .rightarrow,.leftarrow{
+        opacity: 100%;
+        transition: opacity 0.5s ease-in-out 0s;
+    }
+}

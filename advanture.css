@@ -1,0 +1,154 @@
+/*footer container position*/
+footer{
+	position: static;
+}
+header>h1{
+	margin-top: 35px;
+	margin-left: 20%;
+    font-size: 45px;
+}
+header>h3{
+	margin-top: 5px;
+	margin-left: 20%;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+header>p{
+	margin-left: 20%;
+	font-weight: 200;
+	color: gray;
+	margin-top: 0px;
+}
+.container{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 67%;
+    height: 100%;
+    margin-left: 19%;
+}
+.books{
+	height: 34%;
+    width: 160px;
+    margin: 5px 15px;
+    transition: transform 0.5s ease-in-out 0.3s;
+}
+.books:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s ease-in-out 0s;
+}
+.books>a>img{
+	width: 160px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px silver;
+}
+.tagbigbox{
+	margin-top: 60px;
+    margin-left: 19%;
+    width: 60%;
+    border: 1px solid;
+    padding: 20px;
+}
+.tagbigbox>h3{
+	font-weight: 100;
+}
+.tagbox{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tagbox>a,.tagbox>span{
+	text-decoration: none;
+	color: #6f6f6f;
+	border-radius: 10px;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin: 5px 10px;
+	transition: transform 0.5s ease-in-out 0s;
+}
+.tagbox>a:hover{
+	transform: scale(1.1);
+    transition: transform 0.5s ease-in-out 0s;
+}
+.tagbox>span{
+	opacity: 50%;
+}
+.tagbox>span>a{
+	text-decoration: none;
+	color: #6f6f6f;
+}
+.bigbookcontainer{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 100px;
+    box-shadow: 0 0 15px #eee;
+    padding-left: 15px;
+    padding-bottom: 50px;
+}
+.bigbooksection{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 250px;
+	margin: 20px 0px;
+
+}
+.bigbookpic{
+	width: 45%;
+}
+.bigbookpic>a>img{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease-in-out 0.3s;
+}
+.bigbookpic>a>img:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s ease-in-out 0s;
+}
+.bigbookpic>span{
+	opacity: 50%;
+	font-size: 12px;
+}
+.bigbooksection>content{
+	width: 60%;
+    margin: 0px 5%;
+}
+.bigbooksection>content>h4,.bigbooksection>content>h5{
+	font-weight: 100;
+}
+.bigbooksection>content>h4{
+	margin-bottom: 0px;
+	color: #6f6f6f;
+}
+.bigbooksection>content>h5{
+	margin-top: 0px;
+	color: #6f6f6f;
+}
+.bigbookcontainertitle{
+	margin-left: 20%;
+}
+@media only screen and (max-width:1200px) and (min-width: 786px) {
+	.bigbookcontainer{
+	    width: 75%;
+    	margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width:786px) {
+	.bigbooksection{
+		width: 100%;
+	}
+	.bigbookcontainer{
+		width: 78%;
+		margin-left: 13%;
+	}
+	.bigbooksection>content {
+    	width: 45%;
+	}
+
+}

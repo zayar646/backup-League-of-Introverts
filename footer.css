@@ -1,0 +1,43 @@
+/*the whole footer container*/
+footer{
+	width: auto;
+	display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    position: static;
+    margin-top: 80px;
+}
+/*the container at the right side of the footer*/
+.footersecondbox{
+	
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-right: 30px;
+}
+.footersecondbox>p{
+	font-size: 15px;
+    margin: 0px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.footersecondbox>p>a{
+    text-decoration: none;
+    color: black;    
+}
+footer>center{
+    margin-top: 40px;
+    width: 100%;
+}
+footer>center>div{
+opacity: 50%;
+    text-align: center;
+    width: auto;
+}
+@media only screen and (max-width: 1075px) {
+    footer>center>div{
+        width: auto;
+    }
+}
+
