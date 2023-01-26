@@ -32,11 +32,11 @@ h1{
 }
 .arrowright{
     left: 13vw;
-    background-image: url("../pj photo1/angle-circle-left.png");
+    background-image: url("../League-of-Introverts/pj photo1/angle-circle-left.png");
 }
 .arrowleft{
     right: 13vw;
-    background-image: url("../pj photo1/angle-circle-right.png");
+    background-image: url("../League-of-Introverts/pj photo1/angle-circle-right.png");
 }
 .rightarrow,.leftarrow{
     top: 295px;
@@ -71,13 +71,13 @@ h1{
     background-position: center;
 }
 .firstbigpic1{
-    background-image: url("../pj photo1/tekkatho phone naing.png");
+    background-image: url("../League-of-Introverts/pj photo1/tekkatho phone naing.png");
 }
 .firstbigpic2{
-    background-image: url("../pj photo1/moemoe.png");
+    background-image: url("../League-of-Introverts/pj photo1/moemoe.png");
 }
 .firstbigpic3{
-    background-image: url("../pj photo1/chitoonyo.png");
+    background-image: url("../League-of-Introverts/pj photo1/chitoonyo.png");
 }
 .bigsection>h2,.bigsection>p{
 	margin: 5px;
@@ -165,10 +165,12 @@ section>span{
 }
 @media only screen and (max-width: 600px) {
     .secondcontainer {
-        width: 53vw;
+        width: 50vw;
+        margin-left: 70px;
     }
     .firstcontainer{
         width: 60vw;
+        display: none;
     }
     h1{
         font-size: 23px;
