@@ -20,9 +20,9 @@
     padding-left: 15px;
 }
 #songlist>button{
-	width: 100%;
+    width: 100%;
     margin: 10px 0px;
-    height: 45px;
+    height: auto;
 }
 .soundbottombox{
 	width: 100%;
@@ -139,7 +139,7 @@
         left: 30%;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 490px) {
     #searchsong{
         left: 4%;
     }    
