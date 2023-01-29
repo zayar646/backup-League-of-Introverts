@@ -64,7 +64,6 @@ header>h1{
     align-items: center;
 }
 .myatmininfo,.arkerinfo,.minthiakinfo,.zayarinfo{
-	height: 100%;
 	width: 60%;
 }
 .myatminpicbox,.arkerpicbox,.minthiakpicbox,.zayarpicbox,.aboutus1photo>img{
@@ -132,9 +131,10 @@ header>h1{
 
 
 }
-@media only screen and (max-width: 1270px) {
+
+@media only screen and (max-width: 1408px) {
 	.myatmin,.arker,.minthiak,.zayar{
-		height: 760px;
+		height: 685px;
 	}
 	.aboutus1,.aboutus2{
 	    width: 100%;

@@ -165,7 +165,7 @@ section>span{
 }
 @media only screen and (max-width: 600px) {
     .secondcontainer {
-        width: 50vw;
+        width: 39vw;
         margin-left: 70px;
     }
     .firstcontainer{
@@ -181,5 +181,10 @@ section>span{
     .rightarrow,.leftarrow{
         opacity: 100%;
         transition: opacity 0.5s ease-in-out 0s;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .secondcontainer {
+        width: 50vw;
     }
 }
